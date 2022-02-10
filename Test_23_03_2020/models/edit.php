@@ -72,4 +72,4 @@ if (isset($this->DATA['id'])&&is_numeric($this->DATA['id'])&&$this->DATA['act']!
     } else {$this->DATA['success'] = 1; $this->DATA['message']='Задача не выбрана';}
 }
 $mysqli->close();
-?> 
+?>
